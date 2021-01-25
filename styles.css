@@ -38,6 +38,10 @@ body {
     margin-left: 180px;
 }
 
+iframe {
+    max-width: 100% !important;
+}
+
 .CollabGamers a{
     color: white;
     font-size: 20px;
@@ -54,6 +58,16 @@ body {
 
 .content-foo {
     text-align: center;
+}
+
+/* Reglas */
+
+.ul{
+    text-items: center;
+}
+
+.li{
+    color: silver;
 }
 
 .titulo-final {
