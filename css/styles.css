@@ -1,0 +1,226 @@
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.flex-center{
+    justify-content: center;
+}
+
+#fondo{
+    height: 100vh;
+    background-image: url(../img/collab-gamers-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0,7;
+}
+
+nav{
+    padding: 30px 10px;
+}
+
+nav > a{
+    color: white;
+    font-weight: 300;
+    text-decoration: underline;
+    margin-left: 140px;
+    text-align: center;
+}
+
+.collab-gamers-sections {
+    text-align: center;
+}
+
+.collab-gamers-section h1 {
+    margin: 60px;
+    color: rgb(124, 176, 255);
+    text-align: center;
+    font-size: 60px;
+}
+
+.collab-gamers-section h2 {
+    margin: 30px;
+    margin-right: 130px;
+    margin-left: 130px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.collab-gamers-section p{
+    color: white;
+    font-size: 20px;
+    margin: 12px;
+    text-align: center;
+    margin-right: 180px;
+    margin-left: 180px;
+}
+
+iframe {
+    max-width: 100% !important;
+}
+
+.collab-gamers-section a{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.usage-policy-title{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.question-usage-policy{
+    font-size: 23px;
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 13px;
+    margin-right: 180px;
+    margin-left: 180px;
+}
+
+.usage-policy p{
+    color: white;
+    font-size: 18px;
+    margin-right: 180px;
+    margin-left: 180px;
+}
+
+.usage-policy li{
+    color: white;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-right: 180px;
+    margin-left: 180px;
+}
+
+.question-livestream{
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-right: 180px;
+    margin-left: 180px;
+}
+
+.question-youtube{
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-right: 180px;
+    margin-left: 180px;
+}
+
+.faq-title{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.question-faq{
+    font-size: 23px;
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 13px;
+    margin-right: 180px;
+    margin-left: 180px;
+}
+
+.faq p{
+    color: white;
+    font-size: 18px;
+    margin-right: 180px;
+    margin-left: 180px;
+}
+
+.inscripcion-title{
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.inscription a{
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-footer{
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo {
+    text-align: center;
+}
+
+.titulo-final {
+    text-align: center;
+    margin: 20px;
+    color: rgb(26, 26, 26);
+    font-size: 30px;
+}
+
+.loader_animation{
+    position: fixed;
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    transition: all 1.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}  
+
+.loader_animation div{
+    position: relative;
+}
+
+.loader_animation > div{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 2rem 0.8rem;
+    border-radius: 50%;
+    background-color: white;
+    animation: loader-animation .6s infinite alternate;
+}
+
+@keyframes loader-animation{
+    to{
+        opacity: .1;
+        transform: translate3d(0, -1rem, 0);
+    }
+}
+
+.loader_animation > div:nth-child(2){
+    animation-delay: .2s;
+}
+
+.loader_animation > div:nth-child(3){
+    animation-delay: .3s;
+}
