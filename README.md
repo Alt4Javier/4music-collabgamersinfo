@@ -1,12 +1,12 @@
 # Alt 4 Javier Collab Gamers 
-**Actualizacion 2.16**
+**Actualizacion 2.24**
 
 #### Cosas Nuevas:
-- Nuevo diseño de margin y padding de videos.
-- Añadido nueva seccion: Usage Policy // Politica de uso y FAQ, el contexto de esas secciones es usar las canciones adecuadamente siguiendo la politica de uso y leyendo las preguntas y respuestas del proyecto (FAQ).
 - Añadido imagen principal del sitio web como 'Banner principal' del la pagina web.
 - Nuevo loader (al entrar al sitio web vera una animacion indicando que esta cargando el sitio web.)
 - Añadida nuevo Menu de Inicio; (Home, Proyects, Shows, Merch y Collab Gamers).
+- El Sitio web ahora es indexeable, ya se puede buscar en la internet con los meta que esta en esta actualizacion.
+- Añadido nuevos `<meta>` a la Pagina a la pagina, ayudando a tener descripcion, autor de la pagina, keywords `(description, keywords, author)` en general.
 
 #### Cosas Nuevas y Arregladas del formulario:
 - Eliminado preguntas anteriores.
@@ -19,3 +19,4 @@
 #### Cosas Arregladas:
 - Margin de videos y titulos.
 - Margin y padding de secciones.
+- Arreglado `max-width` en los videos al minimizar o restaurar (Opera) en los navegadores.
